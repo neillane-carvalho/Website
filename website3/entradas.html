@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entradas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagens/pizza-logo.webp" alt="Cantina Bella Italia">
+            <h1>Entradas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bebidas.html">Bebidas</a></li>
+                <li><a href="entradas.html">Entradas</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="sobremesas.html">Sobremesas</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nossas Entradas</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <br>
+                <img src="Imagens/Bruschetta Tradicional.jpg" alt="Bruschetta Tradicional" class="item-image">
+                <h3>Bruschetta Tradicional</h3>
+                <p>R$ 25,00</p>
+                <button onclick="adicionarAoCarrinho('Bruschetta Tradicional', 25.00)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item">
+                <br>
+                <img src="Imagens/Focaccia com Azeite.jpg" alt="Focaccia com Azeite" class="item-image">
+                <h3>Focaccia com Azeite</h3>
+                <p>R$ 18,00</p>
+                <button onclick="adicionarAoCarrinho('Focaccia com Azeite', 18.00)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item"></div>
+            <br>
+                <img src="Imagens/Caprese com Manjericão.jpg" alt="Caprese com Manjericão" class="item-image">
+                <h3>Caprese com Manjericão</h3>
+                <p>R$ 18,00</p>
+                <button onclick="adicionarAoCarrinho('Caprese com Manjericão', 18.00)">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais entradas conforme necessário -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cantina Bella Italia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

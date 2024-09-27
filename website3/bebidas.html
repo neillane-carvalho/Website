@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagens/pizza-logo.webp" alt="Cantina Bella Italia">
+            <h1>Bebidas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bebidas.html">Bebidas</a></li>
+                <li><a href="entradas.html">Entradas</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="sobremesas.html">Sobremesas</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Nossas Bebidas</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <br>
+                <img src="Imagens/Vinho Tinto Italiano.webp" alt="Vinho Tinto Italiano" class="item-image">
+                <h3>Vinho Tinto Italiano</h3>
+                <p>R$ 75,00</p>
+                <button onclick="adicionarAoCarrinho('Vinho Tinto Italiano', 75.00)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item">
+                <br>
+                <img src="Imagens/Refrigerante.jpg" alt="Refrigerante" class="item-image">
+                <h3>Refrigerante</h3>
+                <p>R$ 8,00</p>
+                <button onclick="adicionarAoCarrinho('Refrigerante', 8.00)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item">
+                <br>
+                <img src="Imagens/Chopp Artesanal.jpg" alt="Chopp Artesanal" class="item-image">
+                <h3>Chopp Artesanal</h3>
+                <p>R$ 12,00</p>
+                <button onclick="adicionarAoCarrinho('Chopp Artesanal', 12.00)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="menu-item">
+                <br>
+                <img src="Imagens/Suco Natural.jpg" alt="Suco Natural" class="item-image">
+                <h3>Suco Natural</h3>
+                <p>R$ 15,00</p>
+                <button onclick="adicionarAoCarrinho('Suco Natural', 15.00)">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais bebidas conforme necessário -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cantina Bella Italia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

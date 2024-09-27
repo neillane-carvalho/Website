@@ -1,0 +1,99 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #f5e3d8;
+    color: #4d2f26;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #28322c;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ff7a5a;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ff7a5a;
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #4d2f26;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.item-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
+footer p {
+    font-style: italic;
+}
